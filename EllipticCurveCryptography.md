@@ -16,3 +16,11 @@ Pippenger algorithm
 Windowed MSM
 Curve arithmetic
 Curve serialization
+
+Important curves
+BN254
+BLS12-381
+Pasta curves
+Edwards curves
+Jubjub
+Curve cycles
