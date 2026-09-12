@@ -1,8 +1,8 @@
 # Probability — ZK Context Notes
 
-**Best source:** **"Probability and Computing" by Mitzenmacher & Upfal** — the standard CS-oriented probability text, and notably it covers union bound, concentration inequalities (Chernoff/Hoeffding), and the birthday paradox explicitly and rigorously — exactly the subset of probability theory that shows up in cryptography, as opposed to a general stats textbook that would spend most of its time on things you won't use.
+**Best source:** Mitzenmacher & Upfal, [*Probability and Computing*](https://www.cambridge.org/core/books/probability-and-computing/3A5B47DB315FC64B9256C5C8131C5EFA) (Cambridge University Press, not free, check your library or university access). The standard CS-oriented probability text; it covers union bound, concentration inequalities (Chernoff/Hoeffding), and the birthday paradox explicitly and rigorously, exactly the subset of probability theory that shows up in cryptography, as opposed to a general stats textbook that would spend most of its time on things you won't use.
 
-**Supplement (short, crypto-specific):** the probability primer / appendix in **Boneh & Shoup's "A Graduate Course in Applied Cryptography"** (already on your reading list) — it defines **statistical distance** and **negligible probability** precisely in the exact notation crypto papers use, which is worth reading even if you've covered general probability elsewhere, since the crypto-specific formalization is what you'll actually see in papers.
+**Supplement (short, crypto-specific):** the probability primer/appendix in Boneh & Shoup, [*A Graduate Course in Applied Cryptography*](https://toc.cryptobook.us/) (already on your reading list, free full text). It defines **statistical distance** and **negligible probability** precisely, in the exact notation crypto papers use, worth reading even if you've covered general probability elsewhere, since the crypto-specific formalization is what you'll actually see in papers.
 
 ---
 
