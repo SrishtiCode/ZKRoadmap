@@ -1,4 +1,4 @@
-# Probability — ZK Context Notes
+# Probability (SOLID)
 
 **Best source:** Mitzenmacher & Upfal, [*Probability and Computing*](https://www.cambridge.org/core/books/probability-and-computing/3A5B47DB315FC64B9256C5C8131C5EFA) (Cambridge University Press, not free, check your library or university access). The standard CS-oriented probability text; it covers union bound, concentration inequalities (Chernoff/Hoeffding), and the birthday paradox explicitly and rigorously, exactly the subset of probability theory that shows up in cryptography, as opposed to a general stats textbook that would spend most of its time on things you won't use.
 
