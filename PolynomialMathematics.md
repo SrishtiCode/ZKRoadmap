@@ -1,10 +1,12 @@
-# Polynomial Mathematics ⭐ — ZK Context Notes
+# Polynomial Mathematics (DEEP)
 
 **Sources (two, deliberately paired):**
-1. **Continue with Shoup's book** for the algebraic foundations — polynomial rings, roots, factor theorem, division are covered rigorously there, consistent with your Number Theory/Abstract Algebra sources.
-2. **"Modern Computer Algebra" by von zur Gathen & Gerhard** — the canonical, widely-cited computational reference specifically for polynomial representation, evaluation, interpolation, and multiplication algorithms (including FFT-based methods). This is the book arkworks and other ZK library docs point to when they cite algorithmic sources for polynomial arithmetic. It's dense — you don't need to read it cover to cover, just the chapters on evaluation/interpolation and fast multiplication.
 
-Optional supplement: the **MoonMath Manual's** QAP/vanishing-polynomial sections, specifically for how this math gets applied inside SNARK construction — useful for connecting the pure math to the R1CS→QAP pipeline you're already working through.
+1. **Continue with Shoup's book** for the algebraic foundations: [*A Computational Introduction to Number Theory and Algebra*](https://shoup.net/ntb/) (free, full text). Polynomial rings, roots, the factor theorem, and division are covered rigorously there, consistent with your Number Theory/Abstract Algebra sources.
+
+2. Joachim von zur Gathen & Jürgen Gerhard, [*Modern Computer Algebra*](https://cosec.bit.uni-bonn.de/science/mca/) (Cambridge University Press, not free, check your library or university access). The canonical, widely-cited computational reference specifically for polynomial representation, evaluation, interpolation, and multiplication algorithms (including FFT-based methods). This is the book arkworks and other ZK library docs point to when they cite algorithmic sources for polynomial arithmetic. It's dense; you don't need to read it cover to cover, just the chapters on evaluation/interpolation and fast multiplication.
+
+**Optional supplement:** the [*MoonMath Manual*](https://github.com/LeastAuthority/moonmath-manual) (free PDF via [Least Authority](https://leastauthority.com/community-matters/moonmath-manual/)), specifically its QAP and vanishing-polynomial sections, for how this math gets applied inside SNARK construction. Useful for connecting the pure math to the R1CS → QAP pipeline you're already working through.
 
 ---
 
