@@ -1,4 +1,4 @@
-# Linear Algebra — ZK Context Notes
+# Linear Algebra (SOLID)
 
 **Best source:** Gilbert Strang, [*Introduction to Linear Algebra*](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) + his free [MIT OCW 18.06 lecture series](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) — intuition-first and computationally grounded, the standard on-ramp for programmers and engineers rather than pure math majors. Covers every sub-topic in this note.
 
