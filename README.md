@@ -1,34 +1,52 @@
 # ZK Notes
 
-**A structured, from-scratch curriculum for learning Zero-Knowledge Proofs — from the underlying math to production zkVMs.**
+**A structured curriculum map for learning Zero-Knowledge Proofs — from the underlying math to production zkVMs.**
 
-ZK Notes is a collection of self-contained study notes that take you from discrete math and linear algebra all the way to STARKs, PLONK, folding schemes, and real-world zkVMs like Cairo and Plonky3. Nothing here assumes you already know cryptography — each phase builds on the last.
+ZK Notes is not a textbook — it's a set of 44 topic briefs that guide you through learning ZK from discrete math and linear algebra all the way to STARKs, PLONK, folding schemes, and real-world zkVMs like Cairo and Plonky3. Each brief tells you *where to study a topic from*, *how deep to go*, and *what you should be able to answer once you're done*. Nothing here assumes you already know cryptography — each phase builds on the last.
 
-> 44 notes · 8 phases · zero → research-level ZK
+> 44 topics · 8 phases · zero → research-level ZK
+
+---
+
+## What each file actually is
+
+This repo doesn't try to re-teach material that's already taught well elsewhere. Every file follows the same shape:
+
+1. **Study sources** (top of the file) — the best free resource(s) to actually learn the topic from: an MIT OCW course, a textbook, a foundational paper, etc.
+2. **Scope / depth** — what level of understanding is expected for this topic before moving on (working knowledge vs. full derivation vs. implementation-level).
+3. **Self-check questions** (end of the file) — the questions you should be able to answer once you've studied the topic, so you can confirm you actually learned it rather than just skimmed it.
+
+Think of each file as a syllabus entry + comprehension check, not a substitute for the source material it points to.
 
 ---
 
 ## Why this exists
 
-Most ZK learning material assumes you already have a strong crypto or math background, or it jumps straight into "here's how Groth16 works" without ever explaining *why* a QAP exists or what a commitment scheme actually commits to. ZK Notes is an attempt to fix that: a linear, dependency-aware path where every note tells you what you need to already know, and what it unlocks next.
+Most ZK learning material assumes you already have a strong crypto or math background, or it jumps straight into "here's how Groth16 works" without ever explaining *why* a QAP exists or what a commitment scheme actually commits to. ZK Notes is an attempt to fix that: a linear, dependency-aware path that tells you exactly where to learn each prerequisite and how to know when you've actually learned it.
 
 ---
 
 ## How to use this repo
 
-1. Start at **Phase 1** even if you think you know the math — the later notes assume this vocabulary.
-2. Work through the phases roughly in order. Within a phase, files are largely independent.
-3. Use `TopicDepth.md` as a reference for how deep each topic goes and where to stop if you're short on time.
-4. Once you hit Phase 6+, start reading real implementations (Halo2, Plonky3, Cairo) side by side with the notes.
+1. Start at **Phase 1** even if you think you know the math — the later topics assume this vocabulary.
+2. For each topic: read the linked source(s) first, study to the stated depth, then answer the self-check questions at the end before moving on.
+3. Work through the phases roughly in order. Within a phase, topics are largely independent.
+4. Once you hit Phase 6+, start reading real implementations (Halo2, Plonky3, Cairo) side by side with the topic briefs.
 
 ---
 
-## 🗺️ Learning Path
+## Free companion resources
+
+Every topic file opens with a link to the best free resource for that subject — MIT OpenCourseWare lecture series, Victor Shoup's *A Computational Introduction to Number Theory and Algebra*, foundational papers on arXiv/eprint.iacr.org, and similar. These are where you should actually study from; the file itself is the scope and the self-check, not the lesson.
+
+---
+
+## Learning Path
 
 ### Phase 1 — Mathematical Foundations
 The language everything else is written in.
 
-| Note | Covers |
+| Topic | Covers |
 |---|---|
 | [`DiscreteMathematics.md`](./DiscreteMathematics.md) | Sets, logic, modular arithmetic |
 | [`LinearAlgebra.md`](./LinearAlgebra.md) | Vector spaces, matrices, transformations |
@@ -44,7 +62,7 @@ The language everything else is written in.
 ### Phase 2 — Cryptography Foundations
 The primitives ZK protocols are built out of.
 
-| Note | Covers |
+| Topic | Covers |
 |---|---|
 | [`CryptographyFoundations.md`](./CryptographyFoundations.md) | Core cryptographic assumptions |
 | [`Hashes.md`](./Hashes.md) | Hash functions, collision resistance |
@@ -55,7 +73,7 @@ The primitives ZK protocols are built out of.
 ### Phase 3 — Zero-Knowledge Fundamentals
 Where "ZK" actually starts.
 
-| Note | Covers |
+| Topic | Covers |
 |---|---|
 | [`Zero-KnowledgeFundamentals.md`](./Zero-KnowledgeFundamentals.md) | Completeness, soundness, zero-knowledge |
 | [`InteractiveProofs.md`](./InteractiveProofs.md) | IP, interactive proof systems |
@@ -67,7 +85,7 @@ Where "ZK" actually starts.
 ### Phase 4 — Core Proof Systems
 The classic constructions everything else builds on.
 
-| Note | Covers |
+| Topic | Covers |
 |---|---|
 | [`Groth16.md`](./Groth16.md) | Groth16 SNARK |
 | [`Sumcheck.md`](./Sumcheck.md) | The Sumcheck protocol |
@@ -81,7 +99,7 @@ The classic constructions everything else builds on.
 ### Phase 5 — Advanced & Modern Constructions
 Where current research lives.
 
-| Note | Covers |
+| Topic | Covers |
 |---|---|
 | [`FoldingSchemes.md`](./FoldingSchemes.md) | Nova and folding-based recursion |
 | [`RecursiveProofs.md`](./RecursiveProofs.md) | Proof composition & recursion |
@@ -93,7 +111,7 @@ Where current research lives.
 ### Phase 6 — Engineering & Implementation
 Building this stuff for real.
 
-| Note | Covers |
+| Topic | Covers |
 |---|---|
 | [`ProverEngineering.md`](./ProverEngineering.md) | Practical prover design & performance |
 | [`ZKOptimization.md`](./ZKOptimization.md) | Optimizing circuits and provers |
@@ -106,7 +124,7 @@ Building this stuff for real.
 ### Phase 7 — Applications
 Where ZK meets the real world.
 
-| Note | Covers |
+| Topic | Covers |
 |---|---|
 | [`ZKApplicationLayer.md`](./ZKApplicationLayer.md) | Application design patterns |
 | [`ZKRollups.md`](./ZKRollups.md) | ZK-rollups & scaling blockchains |
@@ -115,20 +133,19 @@ Where ZK meets the real world.
 ### Phase 8 — Research Frontier
 For when you've cleared everything above.
 
-| Note | Covers |
+| Topic | Covers |
 |---|---|
 | [`AdvancedResearch.md`](./AdvancedResearch.md) | Open problems & recent papers |
-| [`TopicDepth.md`](./TopicDepth.md) | Guide to how deep to go per topic |
 
 ---
 
 ## Contributing
 
-Corrections, clearer explanations, diagrams, and additional worked examples are welcome. Open an issue or PR — please keep the phase structure and file-naming convention intact so the learning path stays navigable.
+Better source links, sharper scope/depth guidance, and improved self-check questions are all welcome. Open an issue or PR — please keep the sources → depth → questions structure and the phase/file-naming convention intact so the learning path stays navigable.
 
 ## License
 
-Add a license (MIT or CC-BY-4.0 are common for educational content) so people know how they're allowed to reuse and share these notes.
+Add a license (MIT or CC-BY-4.0 are common for educational content) so people know how they're allowed to reuse and share these topic briefs.
 
 ## Star / Follow
 
