@@ -1,4 +1,4 @@
-# Number Theory — ZK Context Notes
+# Number Theory (DEEP)
 
 **Best source:** Victor Shoup, [*A Computational Introduction to Number Theory and Algebra*](https://shoup.net/ntb/) (free, full text online). This is an unusually good fit for you specifically: it's written by one of the top applied cryptographers (co-author of Boneh-Shoup), has a genuinely computational/algorithmic focus rather than pure theory, and covers every single item on your list, integers through primality testing, in the order and depth a cryptography-focused reader needs. This is your primary source; you likely won't need a second one for this section.
 
