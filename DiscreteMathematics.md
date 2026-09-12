@@ -1,4 +1,4 @@
-# Discrete Mathematics — ZK Context Notes
+# Discrete Mathematics (SOLID)
 
 **Read alongside:** [*Mathematics for Computer Science*](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) (Lehman, Leighton, Meyer) — MIT 6.042, free PDF via MIT OpenCourseWare.
 
@@ -25,7 +25,7 @@
 
 **Propositional logic**
 - AND/OR/NOT gates in an arithmetic/boolean circuit = propositional logic connectives.
-- Circuit satisfiability = "does there exist an assignment making this propositional formula true?" — this is the NP-complete problem your entire R1CS/QAP pipeline reduces to.
+- Circuit satisfiability = "does there exist an assignment making this propositional formula true?" this is the NP-complete problem your entire R1CS/QAP pipeline reduces to.
 
 **Predicate logic**
 - Quantifiers ∀ (for all) and ∃ (there exists) show up in every security definition you'll read:
@@ -62,7 +62,7 @@
 - Used in soundness-error calculations: e.g., "the verifier picks a random challenge from a set of size q; a cheating prover succeeds only if they guessed correctly, probability ~1/q." Understanding how challenge-space size (a combinatorial quantity) determines security level is a recurring calculation.
 
 **Graph theory**
-- A circuit *is* a directed acyclic graph: gates = nodes, wires = edges. **Circuit depth** and **circuit width** — both graph properties — directly determine proving cost and are terms you'll see in every circuit-optimization discussion.
+- A circuit *is* a directed acyclic graph: gates = nodes, wires = edges. **Circuit depth** and **circuit width** both graph properties, directly determine proving cost and are terms you'll see in every circuit-optimization discussion.
 - Merkle trees (used in FRI, STARK commitments) are literally trees — tree depth = log(number of leaves) directly determines Merkle proof size, which directly determines your STARK proof size.
 
 **Recurrences**
@@ -72,10 +72,10 @@
 ---
 
 ## Quick self-check before moving on
-You're ready to move to Number Theory (Day 1's next block) once you can, without notes:
+You're ready to move to next topic once you can, without notes:
 1. Explain what an NP relation is and connect it to what a SNARK proves
 2. Explain why soundness proofs use contradiction/reduction, with the general shape of the argument
 3. State what a permutation argument is checking and why it matters for PLONK
 4. Solve (or recognize the solution to) T(n) = 2T(n/2) + O(n)
 
-If any of these feel shaky, that's the specific sub-topic to revisit — not a signal to re-read the whole section.
+If any of these feel shaky, that's the specific sub-topic to revisit, not a signal to re-read the whole section.
