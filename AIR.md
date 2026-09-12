@@ -1,4 +1,4 @@
-# AIR ⭐⭐⭐⭐⭐ — ZK Context Notes
+# AIR (IMP) — ZK Context Notes
 
 **Heavy overlap with your STARKs notes — most of this list is reinforcement. Two genuinely new items deserve real attention: DEEP-ALI and DEEP-FRI.**
 
