@@ -1,6 +1,6 @@
 # Discrete Mathematics — ZK Context Notes
 
-Read alongside: MIT 6.042 "Mathematics for Computer Science" (Lehman/Leighton/Meyer, free PDF)
+**Read alongside:** [*Mathematics for Computer Science*](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf) (Lehman, Leighton, Meyer) — MIT 6.042, free PDF via MIT OpenCourseWare.
 
 ---
 
