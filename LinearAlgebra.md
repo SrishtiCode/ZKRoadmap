@@ -1,6 +1,8 @@
 # Linear Algebra — ZK Context Notes
 
-**Best source:** Gilbert Strang's **"Introduction to Linear Algebra"** + his free MIT OCW 18.06 lecture series (video lectures on YouTube, lecture notes free on MIT OCW). This is the standard recommendation for exactly your use case — intuition-first, computationally grounded, widely regarded as the best on-ramp for programmers/engineers rather than pure math majors. It covers every sub-topic in your list. You don't need a second source for this section; if you want a supplementary "seen through a crypto lens" resource, revisit these notes after Strang rather than searching for a ZK-specific linear algebra text (they're rare and usually thinner than just applying Strang's material directly).
+**Best source:** Gilbert Strang, [*Introduction to Linear Algebra*](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) + his free [MIT OCW 18.06 lecture series](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/) — intuition-first and computationally grounded, the standard on-ramp for programmers and engineers rather than pure math majors. Covers every sub-topic in this note.
+
+No second source needed for this section. If you want a "seen through a crypto lens" supplement, revisit this note after finishing Strang rather than searching for a ZK-specific linear algebra text — they're rare and usually thinner than just applying Strang's material directly.
 
 ---
 
