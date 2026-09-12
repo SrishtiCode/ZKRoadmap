@@ -1,6 +1,6 @@
 # Abstract Algebra — ZK Context Notes
 
-**Best source:** Continue with **Victor Shoup's "A Computational Introduction to Number Theory and Algebra"** (same source as your Number Theory section — free, full text online). It's structured to cover exactly this progression: groups → rings → fields, with a computational lens throughout. This is genuinely one of the best single resources for a ZK developer specifically, since it treats algebra as something you compute with, not just something you prove theorems about. No second source needed for this section either.
+**Best source:** Continue with Victor Shoup, [*A Computational Introduction to Number Theory and Algebra*](https://shoup.net/ntb/ntb-v2.pdf) — same source as your Number Theory section, free full text online. It's structured to cover exactly this progression: groups → rings → fields, with a computational lens throughout. Genuinely one of the best single resources for a ZK developer specifically, since it treats algebra as something you compute with, not just something you prove theorems about. No second source needed for this section.
 
 ---
 
