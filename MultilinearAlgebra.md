@@ -1,8 +1,6 @@
-# Multilinear Algebra — ZK Context Notes
+# Multilinear Algebra (DEEP)
 
-**This completes your second originally-flagged priority gap (paired with Sumcheck). Heavy overlap with your Sumcheck notes for the first three items — the genuinely new material is tensor products and multilinear commitment schemes, both worth real attention since they're the "how do you actually implement this efficiently" layer underneath sumcheck-based systems.**
-
-**Best source: continue Thaler's book** — it has dedicated, thorough treatment of multilinear commitment schemes specifically, in addition to the sumcheck/MLE material you've already drawn from it. This remains the right single source for this entire cluster.
+**Best source:** Continue with Justin Thaler, [*Proofs, Arguments, and Zero-Knowledge*](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf) (free, full text). It has dedicated, thorough treatment of multilinear commitment schemes specifically, in addition to the sumcheck/MLE material you've already drawn from it. This remains the right single source for this entire cluster: heavy overlap with Sumcheck notes for the first three items, but the genuinely new material here is tensor products and multilinear commitment schemes, both worth real attention since they're the "how do you actually implement this efficiently" layer underneath sumcheck-based systems.
 
 ---
 
@@ -29,12 +27,7 @@ Fully established — this whole document exists to support the efficient machin
 
 ---
 
-## The full picture, both flagged gaps now closed
-You started this month with two explicitly flagged gaps: **Sumcheck** and **Multilinear Algebra**. Together, they give you: the protocol (sumcheck's round reduction), the mathematical objects it operates on (multilinear polynomials, MLEs, the Boolean hypercube), the algebraic structure making it efficient (tensor products, hypercube-evaluation algorithms), and the commitment-scheme layer needed to actually build a real SNARK from it (multilinear commitments). This is a complete, closed loop — you could, in principle, now read a Spartan or HyperPlonk paper and follow every piece of its construction, rather than treating any of it as a black box.
-
----
-
-## Quick self-check — closing out this whole cluster
+## Quick self-check 
 You're ready to move on once you can, without notes:
 1. Explain the tensor product structure of the equality polynomial eq(x,r), and why this structure is what makes efficient hypercube computation possible
 2. Explain, at a high level, how the table-doubling algorithm achieves O(2ⁿ) hypercube evaluation instead of a naive, more expensive approach
