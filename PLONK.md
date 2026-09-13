@@ -1,10 +1,10 @@
-# PLONK — ZK Context Notes
-
-**Full depth treatment — this is your Week 2 target, and you're arriving with permutation arguments already deeply understood from earlier quizzes, KZG already implemented, and Fiat-Shamir already solid. This section is mainly about assembling those pieces into PLONK's specific protocol shape, plus genuinely new material: the table-based arithmetization model.**
+# PLONK (DEEP)
 
 **Sources:**
-1. **The PLONK paper itself** (Gabizon, Williamson, Ciobotaru) — for the grand product argument and quotient polynomial mechanics precisely.
-2. **The Halo2 Book's "Concepts" section** — genuinely the right source specifically for the column/selector/table terminology ("PLONKish arithmetization" as a term postdates the original PLONK paper and was popularized by Halo2's documentation). Use this specifically for advice/fixed/instance columns and selectors.
+
+1. Gabizon, Williamson & Ciobotaru, [*PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge*](https://eprint.iacr.org/2019/953) (free, IACR ePrint). For the grand product argument and quotient polynomial mechanics precisely.
+
+2. The Halo2 Book, [*Concepts*](https://zcash.github.io/halo2/concepts.html), specifically the [*PLONKish Arithmetization*](https://zcash.github.io/halo2/concepts/arithmetization.html) page (free). Genuinely the right source specifically for the column/selector/table terminology: "PLONKish arithmetization" as a term postdates the original PLONK paper and was popularized by Halo2's documentation. Use this specifically for advice/fixed/instance columns and selectors.
 
 ---
 
