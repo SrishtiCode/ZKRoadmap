@@ -1,8 +1,8 @@
-# Modern Proof Systems
+# Modern Proof Systems (SKIM)
 
 **Deliberately SKIM-level, per the topic's own instruction: understand what problem each solves differently, don't memorize internals. Systems you've already studied at full depth are marked (✓ deep) with just a one-line recap; genuinely new entries get a short "what's distinctive" note.**
 
-**Source for the new entries: Thaler's book** (covers Marlin, Sonic, Ligero, and Bulletproofs comparatively in its historical-context sections) — no new source needed, this is the same spine text doing survey-level work now instead of deep-dive work.
+**Source for the new entries:** Justin Thaler, [*Proofs, Arguments, and Zero-Knowledge*](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf) (free, full text). Covers Marlin, Sonic, Ligero, and Bulletproofs comparatively in its historical-context sections. No new source needed, this is the same spine text doing survey-level work now instead of deep-dive work.
 
 ---
 
