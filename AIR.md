@@ -1,8 +1,10 @@
-# AIR (IMP) — ZK Context Notes
+# AIR (DEEP)
 
-**Heavy overlap with your STARKs notes — most of this list is reinforcement. Two genuinely new items deserve real attention: DEEP-ALI and DEEP-FRI.**
+Heavy overlap with your STARKs notes, most of this list is reinforcement. Two genuinely new items deserve real attention: DEEP-ALI and DEEP-FRI.
 
-**Sources: continue STARK-101 + the original STARK paper** for everything already familiar. **For DEEP-ALI/DEEP-FRI specifically: the "DEEP-FRI" paper** (Ben-Sasson, Goldberg, Kopparty, Saraf) — this is the actual paper introducing the technique, worth reading directly since it's a meaningful soundness improvement over "vanilla" FRI that your original STARK-101 pass may not have covered in depth.
+**Sources:** Continue with [STARK-101](https://starkware.co/stark-101/) and Ben-Sasson, Bentov, Horesh & Riabzev, [*Scalable, Transparent, and Post-Quantum Secure Computational Integrity*](https://eprint.iacr.org/2018/046) (free, IACR ePrint) for everything already familiar.
+
+**For DEEP-ALI/DEEP-FRI specifically:** Ben-Sasson, Goldberg, Kopparty & Saraf, [*DEEP-FRI: Sampling Outside the Box Improves Soundness*](https://eprint.iacr.org/2019/336) (free, IACR ePrint). This is the actual paper introducing the technique, worth reading directly since it's a meaningful soundness improvement over "vanilla" FRI that your original STARK-101 pass may not have covered in depth.
 
 ---
 
