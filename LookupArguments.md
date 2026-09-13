@@ -1,11 +1,14 @@
-# Lookup Arguments — ZK Context Notes
+# Lookup Arguments (DEEP)
 
 **Full depth — this is a genuinely important, increasingly central topic in modern circuit design, and it builds directly on the grand product/permutation machinery you already understand well.**
 
 **Sources:**
-1. **The Plookup paper** (Gabizon & Williamson) — the original, foundational efficient lookup construction.
-2. **The LogUp paper** (Haböck) — the modern improvement, increasingly the actual technique used in production systems (Plonky3 and others favor LogUp over classic Plookup). Read both — Plookup for the foundational idea, LogUp for what's actually deployed today.
-3. **Caulk / Caulk+ papers** — for the sub-linear variant, worth knowing exists even if you don't need to implement it immediately.
+
+1. Gabizon & Williamson, [*plookup: A Simplified Polynomial Protocol for Lookup Tables*](https://eprint.iacr.org/2020/315) (free, IACR ePrint). The original, foundational efficient lookup construction.
+
+2. Haböck, [*Multivariate Lookups Based on Logarithmic Derivatives*](https://eprint.iacr.org/2022/1530) (free, IACR ePrint). The modern improvement, increasingly the actual technique used in production systems (Plonky3 and others favor LogUp over classic Plookup). Read both: Plookup for the foundational idea, LogUp for what's actually deployed today.
+
+3. Zapico, Buterin, Khovratovich, Maller, Nitulescu & Simkin, [*Caulk: Lookup Arguments in Sublinear Time*](https://eprint.iacr.org/2022/621) (free, IACR ePrint), and Posen & Kattis, [*Caulk+: Table-Independent Lookup Arguments*](https://eprint.iacr.org/2022/957) (free, IACR ePrint). For the sub-linear variant, worth knowing exists even if you don't need to implement it immediately.
 
 ---
 
