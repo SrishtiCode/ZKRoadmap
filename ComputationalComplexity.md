@@ -2,6 +2,8 @@
 
 **Best source:** Michael Sipser, [*Introduction to the Theory of Computation*](https://www.cengage.com/c/introduction-to-the-theory-of-computation-3e-sipser/9781133187790/), Chapter 7 (Time Complexity) (not free, check your library or university access). This single chapter covers P, NP, NP-completeness, and reductions at exactly the depth you need (SOLID, not research-level). It's the standard textbook reference, extremely well-written, and you don't need Arora & Barak's heavier *Computational Complexity: A Modern Approach* for this pass, that book is genuinely research-level and belongs to your deferred Tier 4 material (PCP theorem, IOP formalism), not this foundational section.
 
+**Free alternative:** MIT OCW [6.045J: Automata, Computability, and Complexity](https://ocw.mit.edu/courses/6-045j-automata-computability-and-complexity-spring-2011/) covers P, NP, NP-completeness, and reductions at the same SOLID depth, fully free.
+
 ---
 
 ## Algorithms
