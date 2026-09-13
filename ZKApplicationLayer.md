@@ -1,4 +1,4 @@
-# ZK Application Layer — Survey Notes
+# ZK Application Layer (SKIM)
 
 **Deliberately SKIM-level, per your depth guide — context for why the infrastructure matters, not deep study. Each entry maps to cryptographic building blocks you already understand, since at this level the value is recognizing "which of my tools does this application actually use," not learning new crypto.**
 
