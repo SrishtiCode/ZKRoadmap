@@ -1,15 +1,21 @@
-# Advanced Cryptography — ZK Context Notes
+# Advanced Cryptography (DEFER)
 **A genuine first pass into research-level territory, not equivalent-depth treatment**
 
 **Honest framing up front**: everything else this month, you've reached real depth on — the kind where you could defend it under questioning. This topic is different in kind, not just degree: the material here (forking lemma, AGM/GGM, the precise assumption hierarchy) is what separates "strong engineer" from "can evaluate or construct novel security proofs," and that gap genuinely takes sustained graduate-level study to close, not one focused session. What follows is a real, correct foundation and the right next steps — treat it as your entry door, not your destination.
 
 **Sources:**
-1. **Boneh & Shoup** (your spine text) — covers DLOG/CDH/DDH and the classical assumption hierarchy rigorously.
-2. **Dan Boneh & Xavier Boyen's original papers introducing q-SDH** — for the specific assumption Groth16 relies on.
-3. **The original Fiat-Shamir + Forking Lemma paper** (Pointcheval & Stern) — for the actual technique, not just the name.
-4. **Fuchsbauer, Kiltz, Loss — the original AGM paper** — now genuinely worth reading given your foundation, rather than deferred.
-5. **Victor Shoup's "Lower Bounds for Discrete Logarithms and Related Problems"** — the original GGM paper.
-6. **Goldreich's "Foundations of Cryptography"** — for the most rigorous treatment of rewinding, extractors, and simulation as formal proof *techniques* rather than just concepts.
+
+1. Continue with Boneh & Shoup, [*A Graduate Course in Applied Cryptography*](https://toc.cryptobook.us/) (free, your spine text). Covers DLOG/CDH/DDH and the classical assumption hierarchy rigorously.
+
+2. Boneh & Boyen, [*Short Signatures Without Random Oracles*](https://eprint.iacr.org/2004/171) (free, IACR ePrint). For the specific q-SDH assumption Groth16 relies on.
+
+3. Pointcheval & Stern, [*Security Arguments for Digital Signatures and Blind Signatures*](https://www.di.ens.fr/~pointche/Documents/Papers/2000_joc.pdf) (free, author's page). The original Fiat-Shamir + Forking Lemma paper, for the actual technique, not just the name.
+
+4. Fuchsbauer, Kiltz & Loss, [*The Algebraic Group Model and Its Applications*](https://eprint.iacr.org/2017/620) (free, IACR ePrint). Now genuinely worth reading given your foundation, rather than deferred.
+
+5. Victor Shoup, [*Lower Bounds for Discrete Logarithms and Related Problems*](https://www.shoup.net/papers/) (free, author's page, look for the "Lower bounds for discrete logarithms" entry). The original GGM paper.
+
+6. Oded Goldreich, [*Foundations of Cryptography, Volume 1*](https://www.wisdom.weizmann.ac.il/~oded/foc-vol1.html) (free preliminary draft). For the most rigorous treatment of rewinding, extractors, and simulation as formal proof *techniques* rather than just concepts.
 
 ---
 
