@@ -1,12 +1,12 @@
-# Pairings ⭐⭐⭐⭐⭐ — ZK Context Notes
+# Pairings (DEEP)
 
-**Your other flagged priority gap. This is the mathematical machinery underneath the single pairing check you already implemented in your Groth16 verifier — the goal by the end of this section is to actually understand what that check is doing, not just call the library function.**
+This is the mathematical machinery underneath the single pairing check you already implemented in your Groth16 verifier: the goal by the end of this section is to actually understand what that check is doing, not just call the library function.
 
-**Best source: Craig Costello's "Pairings for Beginners"** — this is *the* primary source for exactly this list, covering bilinear maps through Miller's algorithm, embedding degree, optimal Ate pairing, and BN/BLS curve families in essentially this exact order. Read it start to finish for this section.
+**Best source:** Craig Costello, [*Pairings for Beginners*](https://www.craigcostello.com.au/s/PairingsForBeginners.pdf) (free). This is *the* primary source for exactly this list, covering bilinear maps through Miller's algorithm, embedding degree, optimal Ate pairing, and BN/BLS curve families in essentially this exact order. Read it start to finish for this section.
 
-**Supplement for real depth: Ben Lynn's PhD thesis, "On the Implementation of Pairing-Based Cryptography"** — free online, classic, thorough treatment of Miller's algorithm and pairing computation, written by one of the BLS curve system's co-inventors (the "L" in BLS). This is where to go once Costello's intuition is solid and you want implementation-level rigor.
+**Supplement for real depth:** Ben Lynn, [*On the Implementation of Pairing-Based Cryptography*](https://crypto.stanford.edu/pbc/thesis.html) (PhD thesis, Stanford, free). A classic, thorough treatment of Miller's algorithm and pairing computation, written by one of the BLS curve system's co-inventors (the "L" in BLS). This is where to go once Costello's intuition is solid and you want implementation-level rigor.
 
-**Already-flagged supplement**: Sean Bowe's BLS12-381 blog post, revisit it now specifically for the embedding-degree and optimal-Ate context, since you'll understand it much better having done the EC section first.
+**Already-flagged supplement:** Sean Bowe, [*BLS12-381: New zk-SNARK Elliptic Curve Construction*](https://electriccoin.co/blog/new-snark-curve/) (free). Revisit this now specifically for the embedding-degree and optimal-Ate context, since you'll understand it much better having done the EC section first.
 
 ---
 
@@ -51,11 +51,6 @@ The Barreto-Naehrig family: curves parametrized by a single integer x, with the 
 
 ## BLS Curves
 The Barreto-Lynn-Scott family — a related but distinct polynomial-parametrization construction technique, generally offering **better computational efficiency** than BN curves for comparable security levels, which is why BLS12-381 has become the preferred modern choice over BN254. The "12" in both "BN254...→ well, BN doesn't use 12 in its name, but conceptually" and "BLS12-381" refers to the **embedding degree** — this naming convention (family name + embedding degree + bit-size) is standard across pairing-friendly curve literature, worth recognizing on sight.
-
----
-
-## Tying it back to what you already built
-Your Groth16 verifier's pairing check is, underneath the abstraction, doing exactly this: computing an **Optimal Ate pairing** (Miller loop + final exponentiation) between elements in G₁ and G₂, relying on **bilinearity** to confirm a multiplicative relationship between hidden values, with the whole construction only being meaningful because BLS12-381 (or whichever curve you used) was deliberately engineered to have a good **embedding degree** making this computation both efficient and secure. Every abstract concept in this document is doing real, specific work inside that one function call you already wrote.
 
 ---
 
