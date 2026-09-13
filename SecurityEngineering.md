@@ -1,8 +1,8 @@
-# Security Engineering — ZK Context Notes
+# Security Engineering (SOLID)
 
-**SOLID depth, matching your dev-first positioning — practical awareness of these attack classes so you'd catch them in your own code and could meaningfully discuss them, without this becoming a second full specialization. Several items here connect directly to real, recent, named incidents you've already encountered this month.**
+SOLID depth, matching your dev-first positioning: practical awareness of these attack classes so you'd catch them in your own code and could meaningfully discuss them, without this becoming a second full specialization. Several items here connect directly to real, recent, named incidents.
 
-**Source: Trail of Bits' "Frozen Heart" writeup** — this is worth reading directly and specifically, since it's the exact vulnerability class behind the OtterSec zkVM disclosure from your earlier "what's still relevant" conversation (Jolt, Nexus, Cairo-M, Ceno, Expander, Binius64 all hit this same bug independently in 2026). Real, current, high-profile, and precisely on-topic.
+**Source:** Trail of Bits, [*Coordinated Disclosure of Vulnerabilities Affecting Girault, Bulletproofs, and PlonK*](https://blog.trailofbits.com/2022/04/13/part-1-coordinated-disclosure-of-vulnerabilities-affecting-girault-bulletproofs-and-plonk/) (free), the "Frozen Heart" series. Read alongside the follow-up posts on [Girault's proof of knowledge](https://blog.trailofbits.com/2022/04/14/the-frozen-heart-vulnerability-in-giraults-proof-of-knowledge/), [Bulletproofs](https://blog.trailofbits.com/2022/04/15/the-frozen-heart-vulnerability-in-bulletproofs/), and [PlonK](https://blog.trailofbits.com/2022/04/18/the-frozen-heart-vulnerability-in-plonk/). This is worth reading directly and specifically, since it's the exact vulnerability class behind the OtterSec zkVM disclosure from your earlier "what's still relevant" conversation (Jolt, Nexus, Cairo-M, Ceno, Expander, Binius64 all hit this same bug independently in 2026). Real, current, high-profile, and precisely on-topic.
 
 ---
 
