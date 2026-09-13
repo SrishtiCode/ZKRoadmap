@@ -1,10 +1,11 @@
-# Cairo — ZK Context Notes
-
+# Cairo (SOLID)
 **Developer-fluency level (SOLID, not DEEP) — and you're arriving with your entire STARK/AIR/FRI foundation already built, so this should move fast. Cairo is, in a real sense, "StarkWare's specific answer to: how do you design a language and VM that's maximally STARK-friendly?" — you already understand the STARK side; this section is about the language/VM design choices layered on top.**
 
 **Sources:**
-1. **The official Cairo documentation** (cairo-lang.org) — the right primary source for a language/DSL, practical and example-driven.
-2. **The original Cairo paper** ("Cairo – a Turing-Complete STARK-Friendly CPU Architecture," Goldberg, Papini, Riabzev) — specifically for the VM/execution/memory model, since it explains the *design reasoning* behind Cairo's distinctive choices, not just the mechanics.
+
+1. The official Cairo documentation, [cairo-lang.org/docs](https://www.cairo-lang.org/docs/) (free). The right primary source for a language/DSL, practical and example-driven.
+
+2. Goldberg, Papini & Riabzev, [*Cairo – A Turing-Complete STARK-Friendly CPU Architecture*](https://eprint.iacr.org/2021/1063) (free, IACR ePrint). Specifically for the VM/execution/memory model, since it explains the design reasoning behind Cairo's distinctive choices, not just the mechanics.
 
 ---
 
