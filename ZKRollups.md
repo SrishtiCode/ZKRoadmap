@@ -1,11 +1,12 @@
-# ZK Rollups — ZK Context Notes
-
-**Your last item from the original 44-topic list — and genuinely the product context most of your ten target companies actually operate in. This section is where your entire month's theory becomes a product.**
+# ZK Rollups (SOLID)
 
 **Sources:**
-1. **Vitalik Buterin's rollup-centric Ethereum roadmap writings** — for the architectural rationale (why rollups, why this structure).
-2. **StarkNet and zkSync documentation directly** — practical, concrete descriptions of real production rollup architecture.
-3. **L2beat** (l2beat.com) — a genuinely useful resource for comparing real, live rollups against each other on exactly these dimensions (proving system, data availability choice, decentralization status) — worth bookmarking as an ongoing reference, not just a one-time read.
+
+1. Vitalik Buterin, [*A Rollup-Centric Ethereum Roadmap*](https://ethereum-magicians.org/t/a-rollup-centric-ethereum-roadmap/4698) (free, 2020). For the original architectural rationale: why rollups, why this structure. Note: Vitalik publicly reconsidered parts of this roadmap in February 2026, citing slower-than-expected L2 decentralization; treat this piece as the foundational design rationale, not as an up-to-date statement of Ethereum's current strategy, and look up his 2026 remarks for the current state of the debate.
+
+2. [StarkNet documentation](https://docs.starknet.io/) and [zkSync documentation](https://docs.zksync.io/) (both free). Practical, concrete descriptions of real production rollup architecture.
+
+3. [L2beat](https://l2beat.com/) (free). A genuinely useful resource for comparing real, live rollups against each other on exactly these dimensions (proving system, data availability choice, decentralization status). Worth bookmarking as an ongoing reference, not just a one-time read.
 
 ---
 
