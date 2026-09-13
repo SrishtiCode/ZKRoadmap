@@ -1,15 +1,18 @@
 # ZK Programming Languages — ZK Context Notes
 
-**Circom: you already know this — treat as terminology formalization. Cairo: just covered. Noir: genuinely new, deserves real attention. Leo/ZoKrates: SKIM. RISC Zero/SP1: full depth coming Week 3, brief recap here. Jolt: genuinely different architecture, worth real explanation.**
-
 **Sources:**
-1. **Noir documentation** (noir-lang.org) — official docs, the right primary source for a language.
-2. **Leo documentation** (leo-lang.org) and **ZoKrates GitHub/docs** — for the "other ecosystems" SKIM-level entries.
-3. **The Jolt paper** ("Jolt: SNARKs for Virtual Machines via Lookups," Arun, Setty, Thaler et al.) — worth reading directly given how different its architecture is from what you've studied so far.
+
+1. [Circom documentation](https://docs.circom.io/) (free). Terminology formalization for what you already know.
+
+2. [Noir documentation](https://noir-lang.org/docs) (free). Official docs, the right primary source for a language.
+
+3. [Leo documentation](https://docs.leo-lang.org/) (free) and the [ZoKrates GitHub repository and docs](https://github.com/Zokrates/ZoKrates) (free). For the "other ecosystems" SKIM-level entries.
+
+4. Arun, Setty & Thaler, [*Jolt: SNARKs for Virtual Machines via Lookups*](https://eprint.iacr.org/2023/1217) (free, IACR ePrint). Worth reading directly given how different its architecture is from what you've studied so far.
 
 ---
 
-## Circom (formalizing what you already know)
+## Circom 
 
 **Signals**: the basic variable type — represents a wire/value in the circuit (input, output, or intermediate signals).
 
@@ -29,7 +32,7 @@
 
 ---
 
-## Noir — genuinely new, worth real attention
+## Noir 
 
 **Noir syntax**: Rust-like, designed explicitly for **developer ergonomics** — a higher-level, more approachable language than Circom's more circuit-literal style.
 
