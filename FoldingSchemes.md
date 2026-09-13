@@ -1,10 +1,14 @@
-# Folding Schemes ⭐⭐⭐⭐⭐ — ZK Context Notes
-
+# Folding Schemes (SOLID)
 **Conceptual fluency is the right target here — understand the mechanism and why it works well enough to explain it, without needing full implementation-level derivation this month. You're arriving with accumulation schemes and IVC already formalized, which makes this land fast.**
 
 **Sources:**
-1. **The Nova paper** (Kothapalli, Setty, Tzialla) — you've already previewed the intro; now read through the core folding construction.
-2. **SuperNova, HyperNova, and ProtoStar papers** — for understanding each one's specific extension, at the level of "what new capability does this add," not full derivation.
+
+1. Kothapalli, Setty & Tzialla, [*Nova: Recursive Zero-Knowledge Arguments from Folding Schemes*](https://eprint.iacr.org/2021/370) (free, IACR ePrint). You've already previewed the intro; now read through the core folding construction.
+
+2. For each extension, focus on "what new capability does this add," not full derivation:
+   - Kothapalli & Setty, [*SuperNova: Proving Universal Machine Executions Without Universal Circuits*](https://eprint.iacr.org/2022/1758) (free, IACR ePrint)
+   - Kothapalli & Setty, [*HyperNova: Recursive Arguments for Customizable Constraint Systems*](https://eprint.iacr.org/2023/573) (free, IACR ePrint)
+   - Bünz & Chen, [*Protostar: Generic Efficient Accumulation/Folding for Special-Sound Protocols*](https://eprint.iacr.org/2023/620) (free, IACR ePrint)
 
 ---
 
