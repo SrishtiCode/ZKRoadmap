@@ -1,10 +1,12 @@
-# FFT / NTT — ZK Context Notes
+# FFT / NTT (DEEP)
 
 **Sources (two, complementary):**
-1. **Continue with von zur Gathen & Gerhard's "Modern Computer Algebra"** for the rigorous algorithmic treatment (Cooley-Tukey, radix-2 structure, complexity analysis).
-2. **Vitalik Buterin's "Fast Fourier Transforms" blog post** — written specifically for a STARK/ZK audience, genuinely excellent intuition-building, free. This is the one most ZK developers actually cite as "the post that made FFT click." Read this *before* or alongside the formal treatment, not after — it'll make the formal version land faster.
 
-**Optional deep supplement for the finite-field/performance side specifically:** Ingonyama's blog has NTT-focused technical posts written by ZK hardware/prover engineers — genuinely useful once you want to go past "I understand FFT" into "I understand why NTT implementations are engineered the way they are" (relevant to your Prover Engineering §36 goals later).
+1. **Continue with von zur Gathen & Gerhard's** [*Modern Computer Algebra*](https://cosec.bit.uni-bonn.de/science/mca/) for the rigorous algorithmic treatment (Cooley-Tukey, radix-2 structure, complexity analysis).
+
+2. Vitalik Buterin, [*Fast Fourier Transforms*](https://vitalik.ca/general/2019/05/12/fft.html) (free blog post). Written specifically for a STARK/ZK audience, genuinely excellent intuition-building. This is the one most ZK developers actually cite as "the post that made FFT click." Read this *before* or alongside the formal treatment, not after, it'll make the formal version land faster.
+
+**Optional deep supplement (finite-field/performance side):** [Ingonyama's blog](https://www.ingonyama.com/post) has NTT-focused technical posts written by ZK hardware/prover engineers, including their free book [*Foundations of NTT Hardware Design*](https://github.com/ingonyama-zk/papers/blob/main/ntt_201_book.pdf). Genuinely useful once you want to go past "I understand FFT" into "I understand why NTT implementations are engineered the way they are," relevant to your Prover Engineering (§36) goals later.
 
 ---
 
