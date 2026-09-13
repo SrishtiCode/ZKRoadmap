@@ -1,10 +1,10 @@
 # Universal SNARKs — ZK Context Notes
 
-**This should move fast — you just built deep intuition for exactly the problem this section solves, via Groth16's circuit-specific setup limitation.**
-
 **Sources:**
-1. **The PLONK paper** (Gabizon, Williamson, Ciobotaru) — already on your reading list, and it directly motivates and defines universal/updatable setup as part of its core contribution.
-2. **A practical Powers of Tau ceremony writeup** (search for the original Zcash/AZTEC "Powers of Tau" ceremony description, or Sean Bowe's related posts) — for grounding the abstract concept in how a real, large-scale ceremony actually runs.
+
+1. Gabizon, Williamson & Ciobotaru, [*PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge*](https://eprint.iacr.org/2019/953) (free, IACR ePrint, already on your reading list). Directly motivates and defines universal/updatable setup as part of its core contribution.
+
+2. Zcash Foundation, [*Conclusion of the Powers of Tau Ceremony*](https://zfnd.org/conclusion-of-the-powers-of-tau-ceremony/) (free), plus Sam Parker, [*The Power of Tau, or: How I Learned to Stop Worrying and Love the Setup*](https://medium.com/zeroknowledge/the-power-of-tau-or-how-i-learned-to-stop-worrying-and-love-the-setup-535a05bec15d) (free). For grounding the abstract concept in how a real, large-scale ceremony actually runs, including how the two-phase (Powers of Tau → circuit-specific) structure works in practice.
 
 ---
 
