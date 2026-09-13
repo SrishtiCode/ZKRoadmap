@@ -1,8 +1,6 @@
-# STARKs ⭐⭐⭐⭐⭐ — ZK Context Notes
+# STARKs (DEEP)
 
-**You've already built this from scratch — this is a consolidation and precision pass, not new learning. Use this specifically to nail terminology distinctions that are easy to blur even after implementing the system.**
-
-**Sources: continue STARK-101** (already worked through in Week 1) **+ the original STARK paper** (Ben-Sasson et al., already on your reading list) — revisit both now with your implementation experience behind you; concepts that felt abstract on first read should land differently now.
+**Sources:** Continue with [STARK-101](https://starkware.co/stark-101/) (already worked through in Week 1) and the original STARK paper, Ben-Sasson, Bentov, Horesh & Riabzev, [*Scalable, Transparent, and Post-Quantum Secure Computational Integrity*](https://eprint.iacr.org/2018/046) (free, IACR ePrint, already on your reading list). Revisit both now with your implementation experience behind you; concepts that felt abstract on first read should land differently now.
 
 ---
 
