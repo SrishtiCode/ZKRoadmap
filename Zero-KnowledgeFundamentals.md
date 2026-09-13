@@ -1,6 +1,8 @@
-# Zero-Knowledge Fundamentals — ZK Context Notes
+# Zero-Knowledge Fundamentals (DEEP)
 
-**Best source:** **Continue with Thaler's "Proofs, Arguments, and Zero-Knowledge"** (your spine text) — it has the definitive, modern treatment of exactly this list. **Supplement for maximum rigor:** **Goldreich's "Foundations of Cryptography" Vol. 1** — genuinely worth citing specifically here, since Goldreich co-authored the original GMR paper that invented zero-knowledge proofs (from your earlier resource list). If you want to read these definitions as close to "from the source" as reasonably possible without tackling the 1985 paper directly, Goldreich's textbook treatment is the closest accessible equivalent.
+**Best source:** Continue with Justin Thaler, [*Proofs, Arguments, and Zero-Knowledge*](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf) (your spine text, free). It has the definitive, modern treatment of exactly this list.
+
+**Supplement for maximum rigor:** Oded Goldreich, [*Foundations of Cryptography, Volume 1*](https://www.wisdom.weizmann.ac.il/~oded/foc-vol1.html) (free preliminary draft on the author's own page). Genuinely worth citing specifically here, since Goldreich co-authored the original GMR paper that invented zero-knowledge proofs (from your earlier resource list). If you want to read these definitions as close to "from the source" as reasonably possible without tackling the 1985 paper directly, Goldreich's textbook treatment is the closest accessible equivalent.
 
 ---
 
