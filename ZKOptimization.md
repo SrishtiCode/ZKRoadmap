@@ -1,8 +1,6 @@
-# ZK Optimization — ZK Context Notes
+# ZK Optimization (SOLID)
 
-**SKIM/contextual level, per your depth guide — most of this you've already absorbed piecemeal across the month. This is a consolidation pass, pointing back to where each item was actually covered, plus brief treatment of the handful of genuinely new items.**
-
-**Source: Ingonyama's blog** — already your MSM/NTT source, and it's genuinely the best single practical source for this entire list, since it's written by people doing exactly this kind of prover-optimization engineering professionally.
+**Source:** [Ingonyama's blog](https://www.ingonyama.com/blog) (free). Already your MSM/NTT source, and it's genuinely the best single practical source for this entire list, since it's written by people doing exactly this kind of prover-optimization engineering professionally.
 
 ---
 
