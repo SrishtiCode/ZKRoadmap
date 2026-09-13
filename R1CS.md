@@ -1,10 +1,10 @@
-# R1CS ⭐⭐⭐⭐⭐ — ZK Context Notes
-
-**You've effectively already built most of this understanding across Linear Algebra, Matrices, Matrix Multiplication, and Arithmetic Circuits notes.** This section is genuinely more consolidation than new material — treat it that way rather than re-learning from scratch.
+# R1CS (DEEP)
 
 **Sources:**
-1. **Continue with your GGPR13/Groth16 paper work** — R1CS is the substrate those papers assume.
-2. **Vitalik Buterin's "Quadratic Arithmetic Programs: from Zero to Hero"** — the standard, widely-cited walkthrough of R1CS→QAP conversion using a concrete worked example. This is specifically the resource to use for the one genuinely new item on this list (R1CS→QAP mechanics) — most people's "it finally clicked" moment for this conversion comes from this exact post.
+
+1. Continue with your GGPR13/Groth16 paper work. R1CS is the substrate those papers assume.
+
+2. Vitalik Buterin, [*Quadratic Arithmetic Programs: from Zero to Hero*](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649) (free). The standard, widely-cited walkthrough of R1CS → QAP conversion using a concrete worked example. This is specifically the resource to use for the one genuinely new item on this list (R1CS → QAP mechanics); most people's "it finally clicked" moment for this conversion comes from this exact post.
 
 ---
 
