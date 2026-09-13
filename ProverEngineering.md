@@ -3,9 +3,12 @@
 **This is, quite literally, the job you're preparing for — everything else this month has been building toward being able to do this well. Real depth, action-oriented.**
 
 **Sources:**
-1. **Continue Ingonyama's blog** — your existing MSM/NTT source, and the right ongoing reference for practical prover engineering generally.
-2. **Read real production code directly**: **arkworks'** FFT and MSM modules, and **Plonky3's** field arithmetic implementation. At this stage, reading well-engineered source code is genuinely more valuable than reading more papers — this is applied engineering skill, and the best teacher is seeing how experienced teams actually structure the code.
-3. **The Rust Performance Book** (free, "Nightly" community resource) — for the general systems-programming half of this list (memory layout, multithreading, profiling) applied to Rust specifically, since that's your implementation language.
+
+1. Continue with [Ingonyama's blog](https://www.ingonyama.com/blog) (free). Your existing MSM/NTT source, and the right ongoing reference for practical prover engineering generally.
+
+2. Read real production code directly: arkworks' FFT and MSM modules in the [arkworks-rs/algebra repository](https://github.com/arkworks-rs/algebra) (`ark-poly` for FFT, `ark-ec` for MSM, free), and Plonky3's field arithmetic implementation, e.g. [`p3-field`](https://github.com/Plonky3/Plonky3/tree/main/field) and [`p3-baby-bear`](https://github.com/Plonky3/Plonky3/blob/main/baby-bear/src/baby_bear.rs) (free). At this stage, reading well-engineered source code is genuinely more valuable than reading more papers, this is applied engineering skill, and the best teacher is seeing how experienced teams actually structure the code.
+
+3. [*The Rust Performance Book*](https://nnethercote.github.io/perf-book/) (free, community resource by Nicholas Nethercote). For the general systems-programming half of this list (memory layout, multithreading, profiling) applied to Rust specifically, since that's your implementation language.
 
 ---
 
