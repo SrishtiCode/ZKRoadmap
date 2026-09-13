@@ -1,10 +1,10 @@
-# Halo / Halo2 — ZK Context Notes
-
-**Your other major Week 2 target, and much of this overlaps directly with your PLONK notes — advice/fixed/instance columns, selectors, permutation arguments, and lookups are the same concepts, same terminology. This section moves fast through those and gives full depth to what's genuinely new: Halo2's specific circuit-layout model, and the recursion/accumulation trick that gives "Halo" its name.**
+# Halo / Halo2 (DEEP)
 
 **Sources:**
-1. **The Halo2 Book** (already recommended) — the single best source for this entire section. Written by the team that built it, it directly defines Regions, Gates, Chips, and the column/selector model in exactly the terms you'll use when reading real Halo2 circuit code.
-2. **The original Halo paper** (Bowe, Grigg, Hopwood) — specifically for the recursion/accumulation mechanism. This is where "Halo" as a *technique* (separate from Halo2 the production system) was introduced — worth reading specifically for the accumulation idea, since Halo2's book assumes some of this background.
+
+1. The Halo2 Book, [*Concepts*](https://zcash.github.io/halo2/concepts.html) (free, already recommended). The single best source for this entire section. Written by the team that built it, it directly defines Regions, Gates, Chips, and the column/selector model in exactly the terms you'll use when reading real Halo2 circuit code.
+
+2. Bowe, Grigg & Hopwood, [*Halo: Recursive Proof Composition without a Trusted Setup*](https://eprint.iacr.org/2019/1021) (free, IACR ePrint). Specifically for the recursion/accumulation mechanism. This is where "Halo" as a technique (separate from Halo2 the production system) was introduced, worth reading specifically for the accumulation idea, since Halo2's book assumes some of this background.
 
 ---
 
