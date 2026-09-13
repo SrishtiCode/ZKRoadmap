@@ -1,10 +1,16 @@
-# Cryptographic Commitments — ZK Context Notes
+# Cryptographic Commitments (DEEP)
 
 **Sources (two, matching the two halves of this topic):**
-1. **Boneh & Shoup** (continuing your spine reference) for the general commitment scheme definitions — hiding, binding, and their computational/statistical/perfect variants, with the precise game-based definitions.
-2. **Justin Thaler's "Proofs, Arguments, and Zero-Knowledge"** — this book has a dedicated chapter comparing KZG, IPA (Bulletproofs-style), and FRI-based commitments side by side, which is exactly the comparative view this section needs. Since Thaler is already your Tier-1 spine textbook, this is the natural source rather than hunting down three separate original papers.
 
-**If you want the original sources for depth later:** the KZG paper itself (Kate-Zaverucha-Goldberg, 2010) and the Bulletproofs paper (Bünz et al.) for IPA — but Thaler's comparative treatment is sufficient for a first strong pass.
+1. Boneh & Shoup, [*A Graduate Course in Applied Cryptography*](https://toc.cryptobook.us/) (continuing your spine reference, free) for the general commitment scheme definitions: hiding, binding, and their computational/statistical/perfect variants, with the precise game-based definitions.
+
+2. Justin Thaler, [*Proofs, Arguments, and Zero-Knowledge*](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf) (free). This book has a dedicated chapter comparing KZG, IPA (Bulletproofs-style), and FRI-based commitments side by side, exactly the comparative view this section needs. Since Thaler is already your Tier-1 spine textbook, this is the natural source rather than hunting down three separate original papers.
+
+**If you want the original sources for depth later:**
+- Kate, Zaverucha & Goldberg, [*Polynomial Commitments*](https://cacr.uwaterloo.ca/techreports/2010/cacr2010-10.pdf) (2010, free technical report, University of Waterloo CACR), the original KZG paper.
+- Bünz, Bootle, Boneh, Poelstra, Wuille & Maxwell, [*Bulletproofs: Short Proofs for Confidential Transactions and More*](https://eprint.iacr.org/2017/1066) (free, IACR ePrint), for IPA.
+
+Thaler's comparative treatment is sufficient for a first strong pass.
 
 ---
 
