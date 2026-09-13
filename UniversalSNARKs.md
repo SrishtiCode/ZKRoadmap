@@ -1,4 +1,4 @@
-# Universal SNARKs — ZK Context Notes
+# Universal SNARKs (SOLID)
 
 **Sources:**
 
