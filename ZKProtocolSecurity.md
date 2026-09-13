@@ -1,8 +1,8 @@
-# ZK Protocol Security — ZK Context Notes
+# ZK Protocol Security (SOLID -> DEEP)
 
-**Almost entirely consolidation — every core definition here was established with precision back in your ZK Fundamentals, Crypto Foundations, and Predicate Logic notes. One item (Algebraic Group Model) is deliberately staying light here, per your original depth guide's explicit deferral to a later cycle — flagging that honestly rather than pretending to cover it in depth.**
+Almost entirely consolidation, every core definition here was established with precision back in your ZK Fundamentals, Crypto Foundations, and Predicate Logic notes. One item (Algebraic Group Model) is deliberately staying light here, per your original depth guide's explicit deferral to a later cycle, flagging that honestly rather than pretending to cover it in depth.
 
-**Source: continue Boneh & Shoup** — same spine reference as the rest of your security-definitions material.
+**Source:** Continue with Boneh & Shoup, [*A Graduate Course in Applied Cryptography*](https://toc.cryptobook.us/) (free, full text). Same spine reference as the rest of your security-definitions material.
 
 ---
 
