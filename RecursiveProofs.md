@@ -1,11 +1,14 @@
-# Recursive Proofs — ZK Context Notes
+# Recursive Proofs (SOLID -> DEEP)
 
-**You already have three concrete worked examples in hand: Halo's accumulation, Cairo's "prove the verifier as a program," and zkVM continuations. This section is mainly about formalizing the vocabulary that unifies them, plus one genuinely important precise distinction (composition vs. aggregation) worth nailing.**
+You already have three concrete worked examples in hand: Halo's accumulation, Cairo's "prove the verifier as a program," and zkVM continuations. This section is mainly about formalizing the vocabulary that unifies them, plus one genuinely important precise distinction (composition vs. aggregation) worth nailing.
 
 **Sources:**
-1. **Continue the Halo2 Book** (already used) — its recursion sections address this formally.
-2. **Valiant's original IVC paper** ("Incrementally Verifiable Computation, or Proofs of Knowledge Imply Time/Space Efficiency") — for the formal origin of the IVC concept.
-3. **Preview the Nova paper's introduction** now, since Folding Schemes (§30) is your very next topic — Nova's intro formally defines IVC in the specific framing modern folding schemes use, and reading it now will make §30 land faster.
+
+1. Continue with the Halo2 Book (already used), specifically its recursion sections, which address this formally.
+
+2. Paul Valiant, [*Incrementally Verifiable Computation, or Proofs of Knowledge Imply Time/Space Efficiency*](https://iacr.org/archive/tcc2008/49480001/49480001.pdf) (free, TCC 2008 proceedings). For the formal origin of the IVC concept.
+
+3. Preview the introduction of Kothapalli, Setty & Tzialla, [*Nova: Recursive Zero-Knowledge Arguments from Folding Schemes*](https://eprint.iacr.org/2021/370) (free, IACR ePrint) now, since Folding Schemes (§30) is your very next topic. Nova's intro formally defines IVC in the specific framing modern folding schemes use, and reading it now will make §30 land faster.
 
 ---
 
