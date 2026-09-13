@@ -1,8 +1,8 @@
-# QAP ⭐⭐⭐⭐⭐ — ZK Context Notes
+# QAP (DEEP)
 
-**This section is mainly about nailing the precise notation, since that's usually the actual sticking point with QAP, not the underlying idea.**
+This section is mainly about nailing the precise notation, since that's usually the actual sticking point with QAP, not the underlying idea.
 
-**Sources: continue GGPR13 + Vitalik Buterin's QAP post (already recommended for R1CS→QAP)** — no new sources needed, this is the same material viewed at full resolution.
+**Sources:** Continue with Gennaro, Gentry, Parno & Raykova, [*Quadratic Span Programs and Succinct NIZKs without PCPs*](https://eprint.iacr.org/2012/215) (GGPR13, free, IACR ePrint) and Vitalik Buterin's [*Quadratic Arithmetic Programs: from Zero to Hero*](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649) (already recommended for R1CS → QAP). No new sources needed, this is the same material viewed at full resolution.
 
 ---
 
