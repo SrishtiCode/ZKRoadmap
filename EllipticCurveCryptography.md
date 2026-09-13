@@ -1,13 +1,16 @@
-# Elliptic Curve Cryptography ⭐⭐⭐⭐⭐ — ZK Context Notes
+# Elliptic Curve Cryptography (DEEP)
 
-**This is one of your two flagged priority gaps (along with Pairings) — treat this section as worth real derivation time, not just reading.**
+**Treat this section as worth real derivation time, not just reading.**
 
 **Sources (three, each serving a different purpose):**
-1. **Craig Costello's "Pairings for Beginners"** (already on your list) — gentle, well-respected entry point covering EC fundamentals before pairings. Start here.
-2. **Hankerson, Menezes & Vanstone — "Guide to Elliptic Curve Cryptography"** — the classic, thorough reference textbook. Denser than Costello, but this is where you go for full rigor on point arithmetic, coordinate systems, and algorithmic detail once Costello's intuition is in place.
-3. **Ingonyama's blog posts on MSM and Pippenger's algorithm** — genuinely the best practical, prover-engineering-focused source for the MSM/Pippenger/windowing material specifically, written by people building ZK hardware acceleration. Use this for the algorithmic/performance half of this section.
 
-**For the "Important Curves" subsection specifically:** **Sean Bowe's "BLS12-381: New zk-SNARK Elliptic Curve Construction"** (Zcash/Electric Coin Company blog post) — a widely-cited, free explanation of exactly why BLS12-381 was designed the way it was, written by the person who led its construction. This is the single best source for understanding curve *choice*, not just curve *mechanics*.
+1. Craig Costello, [*Pairings for Beginners*](https://www.craigcostello.com.au/s/PairingsForBeginners.pdf) (already on your list, free). Gentle, well-respected entry point covering EC fundamentals before pairings. Start here.
+
+2. Hankerson, Menezes & Vanstone, [*Guide to Elliptic Curve Cryptography*](https://link.springer.com/book/10.1007/b97644) (Springer, not free, check your library or university access). The classic, thorough reference textbook. Denser than Costello, but this is where you go for full rigor on point arithmetic, coordinate systems, and algorithmic detail once Costello's intuition is in place.
+
+3. [Ingonyama's blog](https://www.ingonyama.com/blog), especially [*Deep Dive into the Latest MSM Hardware Implementation*](https://www.ingonyama.com/post/deep-dive-into-the-latest-msm-hardware-implementation) (free). Genuinely the best practical, prover-engineering-focused source for the MSM/Pippenger/windowing material specifically, written by people building ZK hardware acceleration. Use this for the algorithmic/performance half of this section.
+
+**For the "Important Curves" subsection specifically:** Sean Bowe, [*BLS12-381: New zk-SNARK Elliptic Curve Construction*](https://electriccoin.co/blog/new-snark-curve/) (Electric Coin Company / Zcash blog, free). A widely-cited explanation of exactly why BLS12-381 was designed the way it was, written by the person who led its construction. This is the single best source for understanding curve *choice*, not just curve *mechanics*.
 
 ---
 
