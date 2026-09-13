@@ -1,8 +1,8 @@
-# Sumcheck ⭐⭐⭐⭐⭐ — ZK Context Notes
+# Sumcheck (DEEP)
 
 **One of your two originally-flagged priority gaps. Full depth treatment — and this is the piece that will finally make HyperNova (just finished) and Jolt (from your zkVM notes) click completely.**
 
-**Best source: Justin Thaler's "Proofs, Arguments, and Zero-Knowledge"** — worth being direct about this: Thaler is one of the actual leading researchers in sumcheck-based proving, and his book's treatment of sumcheck, multilinear extensions, and GKR is widely considered the best available. This is squarely his specialty — read the relevant chapters closely, more than once if needed.
+**Best source:** Justin Thaler, [*Proofs, Arguments, and Zero-Knowledge*](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf) (free, full text). Worth being direct about this: Thaler is one of the actual leading researchers in sumcheck-based proving, and his book's treatment of sumcheck, multilinear extensions, and GKR is widely considered the best available. This is squarely his specialty, read the relevant chapters closely, more than once if needed.
 
 ---
 
