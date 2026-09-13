@@ -1,10 +1,12 @@
-# Groth16 ⭐⭐⭐⭐⭐ — ZK Context Notes
+# Groth16 (DEEP)
 
 **This is the culmination of everything so far — R1CS, QAP, Pairings, Elliptic Curves, and Zero-Knowledge Fundamentals all converge here. Full depth treatment, since this is your active current study and the payoff of the whole foundational month.**
 
 **Sources:**
-1. **The Groth16 paper itself** (already reading, eprint 2016/260).
-2. **Maksym Petkus, "Why and How zk-SNARK Works"** (free on arXiv) — genuinely the definitive practitioner-friendly, step-by-step derivation of Groth16's exact mechanics, including α/β/γ/δ, toxic waste, and the full proof construction. This is the resource most people cite as the one that made Groth16's specific algebra click, as opposed to just the general SNARK concept. Use this as your primary working reference for this section — read it alongside the paper, not after.
+
+1. Groth, [*On the Size of Pairing-Based Non-Interactive Arguments*](https://eprint.iacr.org/2016/260) (free, IACR ePrint, already reading). The Groth16 paper itself.
+
+2. Maksym Petkus, [*Why and How zk-SNARK Works*](https://arxiv.org/abs/1906.07221) (free, arXiv). Genuinely the definitive practitioner-friendly, step-by-step derivation of Groth16's exact mechanics, including α/β/γ/δ, toxic waste, and the full proof construction. This is the resource most people cite as the one that made Groth16's specific algebra click, as opposed to just the general SNARK concept. Use this as your primary working reference for this section, read it alongside the paper, not after.
 
 ---
 
