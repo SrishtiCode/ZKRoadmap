@@ -4,6 +4,8 @@
 
 **Supplement for maximum rigor:** Oded Goldreich, [*Foundations of Cryptography, Volume 1*](https://www.wisdom.weizmann.ac.il/~oded/foc-vol1.html) (free preliminary draft on the author's own page). Genuinely worth citing specifically here, since Goldreich co-authored the original GMR paper that invented zero-knowledge proofs (from your earlier resource list). If you want to read these definitions as close to "from the source" as reasonably possible without tackling the 1985 paper directly, Goldreich's textbook treatment is the closest accessible equivalent.
 
+[Zero Knowledge Proofs for Developers](https://www.youtube.com/playlist?list=PLRvr9ZwuLnyOuhHWKHaLMnWfPSuQ6pkED) (helped me so much)!!
+
 ---
 
 ## Witness & Statement
