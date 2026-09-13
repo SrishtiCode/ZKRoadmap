@@ -1,8 +1,6 @@
-# FRI ⭐⭐⭐⭐⭐ — ZK Context Notes
+# FRI (DEEP)
 
-**You've built this from scratch, and you just did Coding Theory — this section is where those two things fuse into a precise understanding of *why* FRI is sound, not just *how* it works. Should move fast.**
-
-**Sources: continue the original FRI paper** (already on your list) — reread it now with Coding Theory freshly in place; the soundness proof section specifically should read very differently than it did before.
+**Sources:** Continue with the original FRI paper, Ben-Sasson, Bentov, Horesh & Riabzev, [*Fast Reed-Solomon Interactive Oracle Proofs of Proximity*](https://eccc.weizmann.ac.il/report/2017/134/) (free, ECCC, already on your list). Reread it now with Coding Theory freshly in place; the soundness proof section specifically should read very differently than it did before.
 
 ---
 
