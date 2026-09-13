@@ -1,5 +1,4 @@
-# Prover Engineering — ZK Context Notes
-
+# Prover Engineering (DEEP)
 **This is, quite literally, the job you're preparing for — everything else this month has been building toward being able to do this well. Real depth, action-oriented.**
 
 **Sources:**
