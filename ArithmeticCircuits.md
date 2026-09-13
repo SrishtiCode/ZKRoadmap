@@ -1,8 +1,10 @@
-# Arithmetic Circuits — ZK Context Notes
+# Arithmetic Circuits (SOLID -> DEEP)
 
 **Sources (practical, matching this section's hands-on nature):**
-1. **Circom documentation** (docs.circom.io) — since you already know Circom, revisit it specifically through this lens: it's literally how circuits get built and optimized in practice, with real syntax mapping directly onto the concepts below.
-2. **0xPARC's "Circuit Design Patterns"** resource — a well-regarded, practitioner-authored guide covering common circuit patterns, optimization techniques, and custom gate usage. This is closer to "how real circuit engineers actually think" than a textbook treatment, and it's the right register for this particular topic list.
+
+1. [Circom documentation](https://docs.circom.io/) (docs.circom.io, free). Since you already know Circom, revisit it specifically through this lens: it's literally how circuits get built and optimized in practice, with real syntax mapping directly onto the concepts below.
+
+2. [0xPARC's ZK Learning Resources](https://learn.0xparc.org/materials/circom/) (free), especially their Circom workshops. Well-regarded, practitioner-authored material covering common circuit patterns, under-constrained circuit bugs, and custom gate usage. Closer to "how real circuit engineers actually think" than a textbook treatment. Pair it with their [zk-bug-tracker](https://github.com/0xPARC/zk-bug-tracker) (free, community-maintained) for real-world examples of what goes wrong when these patterns aren't followed.
 
 This section is closer to your existing practical strength (you've already built real circuit-adjacent tooling) than a new theoretical area — treat this as consolidating and sharpening vocabulary more than learning from scratch.
 
