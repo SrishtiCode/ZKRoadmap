@@ -1,4 +1,4 @@
-# Advanced ZK Theory — ZK Context Notes
+# Advanced ZK Theory (DEFER)
 
 **The genuinely good news**: almost this entire list is already covered at real depth from earlier sections — this topic heading describes a *category*, and you built that category's actual content while studying Interactive Proofs, Coding Theory, Sumcheck, and Recursive Proofs. Only one item — the PCP theorem's formal statement/proof — remains legitimately deferred, consistent with your original depth guide.
 
