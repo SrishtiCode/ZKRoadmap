@@ -1,4 +1,4 @@
-# Cryptography Foundations — ZK Context Notes
+# Cryptography Foundations (DEEP) 
 
 **Best source:** Boneh & Shoup, [*A Graduate Course in Applied Cryptography*](https://toc.cryptobook.us/) (free, full text). Already on your reading list from earlier. This is the right source specifically for this section: it formally covers security games, adversary models, and the computational/statistical/perfect security hierarchy with the exact rigor and notation you'll see in ZK papers. Since you're already planning to use this as your "spine" reference for the month, this section is where that decision pays off most directly.
 
