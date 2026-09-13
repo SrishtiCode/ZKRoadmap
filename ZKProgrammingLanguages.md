@@ -1,4 +1,4 @@
-# ZK Programming Languages — ZK Context Notes
+# ZK Programming Languages (SOLID)
 
 **Sources:**
 
