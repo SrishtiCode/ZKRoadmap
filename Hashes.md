@@ -1,9 +1,12 @@
-# Hashes for ZK — ZK Context Notes
+# Hashes for ZK (SOLID)
 
 **Sources:**
-1. **The original Poseidon paper** (Grassi, Khovratovich, Rechberger, Roy, Schofnegger) — for the design rationale behind the algebraic hash approach.
-2. **The Poseidon2 paper** — for the specific improvements over the original.
-3. **A ZK-friendly hash survey/benchmark paper** (search "survey of ZK-friendly hash functions" or "zkhash benchmark") — useful for comparing Rescue, Griffin, Anemoi, and MiMC side by side rather than reading five separate papers cover to cover.
+
+1. Grassi, Khovratovich, Rechberger, Roy & Schofnegger, [*Poseidon: A New Hash Function for Zero-Knowledge Proof Systems*](https://eprint.iacr.org/2019/458) (free, IACR ePrint). For the design rationale behind the algebraic hash approach.
+
+2. Grassi, Khovratovich & Schofnegger, [*Poseidon2: A Faster Version of the Poseidon Hash Function*](https://eprint.iacr.org/2023/323) (free, IACR ePrint). For the specific improvements over the original.
+
+3. For comparing Rescue, Griffin, Anemoi, and MiMC side by side rather than reading five separate papers cover to cover: [*Gotta Hash 'Em All! Speeding Up Hash Functions for Zero-Knowledge Proof Applications*](https://arxiv.org/pdf/2501.18780) (free, arXiv survey/benchmark paper), and TACEO's practitioner writeup [*Which ZK Hash Should You Use?*](https://core.taceo.io/articles/how-to-choose-your-zk-friendly-hash-function/) (free blog post, includes decision trees for choosing based on proof system and cost metric).
 
 ---
 
