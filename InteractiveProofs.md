@@ -1,8 +1,6 @@
-# Interactive Proofs — ZK Context Notes
+# Interactive Proofs (DEEP)
 
-**Best source: continue with Thaler's "Proofs, Arguments, and Zero-Knowledge"** — this is genuinely the single best source for this entire section. Thaler's book is structured around exactly this progression (interactive proofs → IOPs → polynomial IOPs → PCPs → sumcheck) and treats them as one connected story rather than separate topics, which is exactly how you should be learning them.
-
-**One scoping note before you start:** the **PCP theorem** specifically was flagged in your depth guide as Tier-4 deferred material — you need to know it exists and roughly what it claims, but deriving or proving it is genuinely research-level and not a September goal. Everything else in this list deserves real DEEP attention.
+**Best source:** Continue with Justin Thaler, [*Proofs, Arguments, and Zero-Knowledge*](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf) (free). This is genuinely the single best source for this entire section. Thaler's book is structured around exactly this progression, interactive proofs → IOPs → polynomial IOPs → PCPs → sumcheck, and treats them as one connected story rather than separate topics, which is exactly how you should be learning them.
 
 ---
 
@@ -39,8 +37,8 @@ A foundational theoretical construct: a single, very large, static proof string 
 ## PCP Theorem — SKIM level, per your depth guide
 A landmark result stating that **every NP language has a PCP with remarkably strong efficiency parameters** — the verifier needs only O(1) queries and O(log n) random bits to achieve high-confidence verification. This is a deep, celebrated theoretical result, and it's the theoretical bedrock beneath much of the "spot-check a small sample" philosophy pervasive in ZK proof systems. **You don't need to derive or fully understand the proof of this theorem right now** — knowing it exists, roughly what it claims, and that it's the theoretical ancestor of the practical spot-checking you do in FRI is sufficient for your current goals. Revisit for real depth only if you move toward research-level theory later.
 
-## Sumcheck — brief intro here, full depth scheduled at §31
-The sumcheck protocol lets a prover convince a verifier of the **sum of a multivariate polynomial's evaluations over the boolean hypercube**, by reducing the claim round-by-round into a sequence of single-variable checks — a genuinely elegant, foundational protocol underlying GKR, Spartan, and HyperPlonk. **You have a dedicated deep-dive scheduled for this at §31 (paired with Multilinear Algebra, §32)** — for now, just note that it belongs conceptually in this IOP family (it's itself a kind of interactive proof with a very specific, efficient structure), and that its full derivation is coming, not skipped.
+## Sumcheck — brief intro here, full depth later
+The sumcheck protocol lets a prover convince a verifier of the **sum of a multivariate polynomial's evaluations over the boolean hypercube**, by reducing the claim round-by-round into a sequence of single-variable checks — a genuinely elegant, foundational protocol underlying GKR, Spartan, and HyperPlonk. **You have a dedicated deep-dive scheduled for this (paired with Multilinear Algebra)** — for now, just note that it belongs conceptually in this IOP family (it's itself a kind of interactive proof with a very specific, efficient structure), and that its full derivation is coming, not skipped.
 
 ---
 
