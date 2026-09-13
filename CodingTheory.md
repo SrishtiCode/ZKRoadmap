@@ -1,10 +1,8 @@
-# Coding Theory ⭐⭐⭐⭐⭐ — ZK Context Notes
+# Coding Theory (DEEP)
 
-**This is the flagged gap from earlier in your roadmap — the math that explains WHY FRI's proximity testing actually works, not just the folding mechanics. Full depth, genuinely new material.**
+**Best source:** Guruswami, Rudra & Sudan, [*Essential Coding Theory*](https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book) (free draft, Creative Commons licensed). The standard modern reference, and notably written partly by Madhu Sudan, one of the actual pioneers connecting coding theory to the PCP theorem and proximity testing. This is a genuinely good fit for exactly what you need, rather than a generic coding theory textbook aimed at communications engineering.
 
-**Best source: "Essential Coding Theory" by Guruswami, Rudra, and Sudan** — free draft available online, the standard modern reference, and notably written partly by Madhu Sudan, one of the actual pioneers connecting coding theory to the PCP theorem and proximity testing. This is a genuinely good fit for exactly what you need, rather than a generic coding theory textbook aimed at communications engineering.
-
-**For the direct FRI connection specifically:** revisit the **FRI paper** (already on your list) and **Thaler's book's** treatment of Reed-Solomon proximity testing now, with this coding theory foundation freshly in place — concepts that felt like "just accept this" on first read should now have real justification underneath them.
+**For the direct FRI connection specifically:** revisit the FRI paper (already on your list) and Thaler's book's treatment of Reed-Solomon proximity testing now, with this coding theory foundation freshly in place. Concepts that felt like "just accept this" on first read should now have real justification underneath them.
 
 ---
 
