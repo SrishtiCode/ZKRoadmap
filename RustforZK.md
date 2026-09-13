@@ -1,10 +1,10 @@
-# Rust for ZK — ZK Context Notes
-
-**You're at medium Rust already — can read and write it. This section is about identifying exactly where "knows Rust" and "knows Rust for ZK" diverge, which is almost entirely in the "ZK Rust" section below, not the fundamentals.**
+# Rust for ZK (DEEP)
 
 **Sources:**
-1. **The Rust Book** (official, free, doc.rust-lang.org/book) — for shoring up any fundamentals gaps, though at your level this should be fast review, not new learning.
-2. **Read arkworks' source code directly — specifically the `ff` crate (field traits) and `ec` crate (group/curve traits)** — there's no formal textbook for "ZK Rust" as its own subject; the actual production trait design in a well-engineered library *is* the best teacher here. This was flagged all the way back in your original roadmap ("study arkworks' field/group trait design as a model") — this is the section where that finally happens directly.
+
+1. [*The Rust Book*](https://doc.rust-lang.org/book/) (official, free). For shoring up any fundamentals gaps, though at your level this should be fast review, not new learning.
+
+2. Read arkworks' source code directly, specifically the [`ark-ff` crate](https://github.com/arkworks-rs/algebra/tree/master/ff) (field traits) and [`ark-ec` crate](https://github.com/arkworks-rs/algebra/tree/master/ec) (group/curve traits) in the [arkworks-rs/algebra repository](https://github.com/arkworks-rs/algebra) (free). There's no formal textbook for "ZK Rust" as its own subject; the actual production trait design in a well-engineered library *is* the best teacher here. This was flagged all the way back in your original roadmap ("study arkworks' field/group trait design as a model"), this is the section where that finally happens directly.
 
 ---
 
