@@ -1,10 +1,12 @@
-# Plonky3 — ZK Context Notes
+# Plonky3 (SOLID -> DEEP)
 
-**Heavy overlap with your STARK/AIR/FRI cluster (already deep) — the genuinely new material here is performance-engineering focused: field choices, SIMD, and parallel proving. This is where "Prover Engineering" (§36) and "Rust for ZK" (§37) stop being abstract categories and become concrete design decisions in a real, widely-used system.**
+Heavy overlap with your STARK/AIR/FRI cluster (already deep). The genuinely new material here is performance-engineering focused: field choices, SIMD, and parallel proving. This is where "Prover Engineering" (§36) and "Rust for ZK" (§37) stop being abstract categories and become concrete design decisions in a real, widely-used system.
 
 **Sources:**
-1. **The Plonky3 GitHub repository and its documentation** — Plonky3 is an actively developed modular toolkit rather than a system with one canonical paper, so the repo itself (maintained by Succinct, building on Polygon Zero's earlier work) is the primary source.
-2. **Polygon Zero's original Plonky2 blog posts** — for foundational context, since Plonky3 directly builds on Plonky2's core ideas (small STARK-friendly fields, FRI-based proving) while becoming more modular and generic.
+
+1. [The Plonky3 GitHub repository](https://github.com/Plonky3/Plonky3) and its documentation (free). Plonky3 is an actively developed modular toolkit rather than a system with one canonical paper, so the repo itself (originally from Polygon Zero, now primarily maintained by Succinct) is the primary source.
+
+2. Polygon's original Plonky2 blog posts: [*Introducing Plonky2*](https://polygon.technology/blog/introducing-plonky2) and [*Plonky2: A Deep Dive*](https://polygon.technology/blog/plonky2-a-deep-dive) (free). For foundational context, since Plonky3 directly builds on Plonky2's core ideas (small STARK-friendly fields, FRI-based proving) while becoming more modular and generic.
 
 ---
 
