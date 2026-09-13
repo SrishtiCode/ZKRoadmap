@@ -1,13 +1,14 @@
-# zkVMs ⭐⭐⭐⭐⭐ — ZK Context Notes
-
-**Your Week 3 centerpiece — and you're arriving with genuinely strong preparation: Cairo's memory model, Plonky3's performance engineering, Jolt's lookup-singularity philosophy, and your own EVM opcode testing harness project all feed directly into this. Full depth.**
+# zkVMs (DEEP)
 
 **Sources:**
-1. **RISC Zero documentation** (docs.risczero.com) and **SP1 documentation** — the two primary systems on your original company-study list, both practical, actively maintained sources.
-2. **The Jolt paper** (already covered) for the lookup-singularity architecture.
-3. **Valida and Miden documentation** (Lita Foundation, Polygon) — for the "other systems" comparison.
-4. **For memory checking specifically**: the classical offline memory checking technique traces back to Blum, Evans, Gemmell, Kannan, and Naor's original paper — worth knowing this predates ZK entirely and was adapted into this context, rather than being invented for zkVMs.
 
+1. [RISC Zero documentation](https://dev.risczero.com/) and [SP1 documentation](https://docs.succinct.xyz/) (both free). The two primary systems on your original company-study list, both practical, actively maintained sources.
+
+2. Arun, Setty & Thaler, [*Jolt: SNARKs for Virtual Machines via Lookups*](https://eprint.iacr.org/2023/1217) (already covered) for the lookup-singularity architecture.
+
+3. [Valida documentation](https://lita.gitbook.io/lita-documentation/) (Lita Foundation) and [Miden VM documentation](https://github.com/0xPolygonMiden/miden-vm) (Polygon), both free. For the "other systems" comparison.
+
+4. **For memory checking specifically:** Blum, Evans, Gemmell, Kannan & Naor, [*Checking the Correctness of Memories*](https://www.cs.ubc.ca/~will/papers/memcheck.pdf) (free, co-author's academic page; original FOCS 1991 / Algorithmica 1994). Worth knowing this classical offline memory checking technique predates ZK entirely and was adapted into this context, rather than being invented for zkVMs.
 ---
 
 ## zkVM Architecture — the general pattern
